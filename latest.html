@@ -1,0 +1,8 @@
+---
+layout: default
+background: "background-blog.jpg"
+background-color: "#848485"
+---
+{% for post in site.posts limit:1 %}
+{% include blog.html %}
+{% endfor %}
